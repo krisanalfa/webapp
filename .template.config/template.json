@@ -1,0 +1,21 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "TRAVLR",
+  "classifications": [ "Web", "MVC", "SPA", "Universal", "Vue" ],
+  "name": "Travlr Web Application",
+  "identity": "Travlr.WebApp",
+  "shortName": "travlrwebapp",
+  "tags": {
+    "language": "C#",
+    "environment": "Web",
+    "infrastructure": "Docker"
+  },
+  "sourceName": "Travlr.WebApp",
+  "symbols": {
+    "title": {
+      "type": "parameter",
+      "defaultValue": "Travlr",
+      "replaces": "WebApp"
+    }
+  }
+}

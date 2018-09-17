@@ -1,0 +1,22 @@
+@{
+  ViewData["Title"] = "Error";
+}
+
+@section styles {
+  <link rel="stylesheet" href='@(ViewBag.Manifest["vendor.css"])'/>
+  <link rel="stylesheet" href='@(ViewBag.Manifest["client.css"])'/>
+
+  @foreach (var preloadStyle in ViewBag.PreloadStyles)
+    {<link rel="stylesheet" href='@preloadStyle'/>}
+}
+
+<div id="app">
+  <div id="nav">
+    <a href="/">Home</a> |
+    <a href="/about">About</a>
+  </div>
+
+  <div class="error">
+    <h1>Error</h1>
+  </div>
+</div>
